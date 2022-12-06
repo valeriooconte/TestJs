@@ -101,5 +101,6 @@ for (i = 0; i < NUM_BLOCKS; i++) {
 
 function ciao() {
     console.log("Hello");
+    console.log("prova");
 }
 ciao();
