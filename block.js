@@ -94,8 +94,13 @@ console.log(' ');
 for (i = 0; i < NUM_BLOCKS; i++) {
     console.log('Informazione blocco: ' + blocks[i].getData());
     console.log('Hash blocco: ' + blocks[i].getHash());
-    console.log('Hash blocco precedente: ' + blocks[i].getPreviousHash());
+    console.log('Hash del blocco precedente: ' + blocks[i].getPreviousHash());
     console.log(' ');
 }
 
-console.log("prova commit branch");
+function ciao() {
+    console.log("Hello");
+    console.log("prova");
+}
+ciao();
+
